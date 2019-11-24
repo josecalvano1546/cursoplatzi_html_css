@@ -1,0 +1,95 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color:#7CBD1E;
+    padding: 15px;
+    color: white;
+    justify-content: space-between;
+    align-content: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 10px;
+    
+    list-style: none;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;    
+}
+
+.principal{
+    padding-bottom: 160px;
+    padding-top: 40px;
+
+    text-align: center;
+  
+    
+}
+
+.contenedor_producto{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.productos{
+    background-image: url("../imagenes/fondo_cont.png");
+    height: 40%;
+    background-size: cover;
+    background-position: center top;
+    display: flex; /* Ajusta a las pantallas */
+
+    position:absolute; /* Permite sacarlo del flujo normal asi podemos darle 
+    la posicion que queremos con los comandos de abajo*/
+    bottom:0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.caja-productos{
+    padding: 5%;
+    margin-top: -14%;
+    width: 20%;
+}
+
+.caja-productos .producto {
+  padding: 10px;
+  background-color:white;
+  border-radius: 20px;
+  box-shadow: -4px 4px 5px #999; 
+  border: 1px solid #999;
+}
+
+.img-contenido{
+    text-align:center;
+}
+
+.responsive{
+    width: 50%;
+    height: auto;
+}
+.boton{
+    background:#C0FFB3;
+    width: 80%;
+    margin-left: 10%; 
+    padding: 10px;
+    border-radius: 22px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: #7CBD1E; 
+}
