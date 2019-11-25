@@ -1,15 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+:root{
+    /* Colores */
+    --color-verde:#7CBD1E; 
+    --color-verdeAgua: #C0FFB3;
+    --color-gris:#999;
+    --color-blanco:white;
+    --color-negro:black;
+    /*contenedores*/
+    --sombra:-4px 4px 5px var(--color-gris);
+    --borde:1px solid var(--color-gris);
+}
 html, body{
     padding: 0px;
     margin: 0px;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav{
     display: flex;
-    background-color:#7CBD1E;
+    background-color: var(--color-verde);
     padding: 15px;
-    color: white;
+    color: var(--color-blanco);
     justify-content: space-between;
     align-content: center;
 }
@@ -23,12 +35,12 @@ nav li{
 }
 
 nav li a{
-    color: black;
+    color: var(--color-negro);
     text-decoration: none;
 }
 
 nav li a:hover{
-    color: white;    
+    color: var(--color-blanco);    
 }
 
 .principal{
@@ -67,10 +79,10 @@ nav li a:hover{
 
 .caja-productos .producto {
   padding: 10px;
-  background-color:white;
+  background-color:var(--color-blanco);
   border-radius: 20px;
-  box-shadow: -4px 4px 5px #999; 
-  border: 1px solid #999;
+  box-shadow: var(--sombra); 
+  border: var(--borde);
 }
 
 .img-contenido{
@@ -82,7 +94,7 @@ nav li a:hover{
     height: auto;
 }
 .boton{
-    background:#C0FFB3;
+    background:var(--color-verdeAgua);
     width: 80%;
     margin-left: 10%; 
     padding: 10px;
@@ -91,5 +103,5 @@ nav li a:hover{
     cursor: pointer;
 }
 .boton:hover{
-    background-color: #7CBD1E; 
+    background-color: var(--color-verde); 
 }
