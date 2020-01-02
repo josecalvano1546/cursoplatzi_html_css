@@ -6,6 +6,7 @@
     --color-gris:#999;
     --color-blanco:white;
     --color-negro:black;
+    --color-verdoso:#3C9D9B; 
     /*contenedores*/
     --sombra:-4px 4px 5px var(--color-gris);
     --borde:1px solid var(--color-gris);
@@ -13,7 +14,7 @@
 html, body{
     padding: 0px;
     margin: 0px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -52,33 +53,26 @@ nav li a:hover{
     
 }
 
-.contenedor_producto{
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-}
+
 .productos{
     background-image: url("../imagenes/fondo_cont.png");
-    height: 40%;
     background-size: cover;
     background-position: center top;
     display: flex; /* Ajusta a las pantallas */
-
-    position:absolute; /* Permite sacarlo del flujo normal asi podemos darle 
-    la posicion que queremos con los comandos de abajo*/
-    bottom:0px;
+    position:relative; 
+    height: 56.5vh;
     width: 100%;
     justify-content: center;
 }
 
 .caja-productos{
     padding: 5%;
-    margin-top: -14%;
+    margin-top: -8%;
     width: 20%;
 }
 
 .caja-productos .producto {
-  padding: 10px;
+  padding: 10px; 
   background-color:var(--color-blanco);
   border-radius: 20px;
   box-shadow: var(--sombra); 
@@ -104,4 +98,60 @@ nav li a:hover{
 }
 .boton:hover{
     background-color: var(--color-verde); 
+}
+.seccion2{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+
+}
+.caja_ani .ani{
+
+    margin: 40px 70px 70px 70px;
+}
+.ani{
+    padding:0 50px 50px 50px; 
+    text-align: center;
+}
+.img_ani{
+    text-align:center;
+}
+
+.seccion3{
+ position: relative;
+ display: flex;
+ height: 50vh;
+ width: 100%;
+ justify-content: center;
+}
+.caja_men .men{
+    margin: 0px 70px 0px 70px;
+    background-color:var(--color-blanco);
+    border-radius: 20px;
+    box-shadow: var(--sombra); 
+    border: var(--borde);
+}
+
+.men{
+    padding: 0 50px 0px 50px; 
+    text-align: center;    
+}
+footer{
+    position: relative;
+    background:#3C9D9B;
+    display: flex; 
+}
+.redes{
+    display: flex; 
+   
+}
+.texto{
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.nombre{
+    padding-left: 55%;
+    margin-top: 20px;
 }
