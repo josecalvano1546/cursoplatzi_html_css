@@ -1,0 +1,24 @@
+/*Por debajo de los 600px activar todas estas reglas*/
+@media handheld, only screen and (max-width:600px){
+   .productos{
+       display: inherit;
+       height: auto;
+   }
+   .caja-productos{
+       width:auto;
+   }
+   .principal {
+    padding-bottom: 50px;
+   }
+   .seccion2{
+       display: inherit;
+       height: auto;
+   }
+   .seccion3{
+        display: inherit;
+        height: auto;
+   }
+   .caja_men .men{
+    margin: 40px 70px 70px 70px;
+   }
+}

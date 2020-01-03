@@ -1,0 +1,27 @@
+@media only screen and (max-width:980px) and (min-width:600px){
+    .caja-productos{
+        margin-top: -8%;
+        width: 35%;
+    }
+
+    .seccion2{
+
+        height: auto;
+    }
+
+    .caja_ani .ani{
+
+        margin: 30px 5px 0px 5px;
+    }
+
+    .caja_men .men{
+        margin: 30px 5px 5px 5px;
+       }
+    .men{
+        padding: 0 20px 0px 20px; 
+        text-align: center;    
+    }
+    .ocultar{
+        display: none;
+    }
+}
