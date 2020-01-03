@@ -128,7 +128,7 @@ nav li a:hover{
  justify-content: center;
 }
 .caja_men .men{
-    margin: 0px 70px 0px 70px;
+    margin: 0px 30px 0px 30px;
     background-color:var(--color-blanco);
     border-radius: 20px;
     box-shadow: var(--sombra); 
