@@ -1,4 +1,8 @@
+/* Importar de google font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* ------------------------------ */
+
+/* Variables en CSS*/
 :root{
     /* Colores */
     --color-verde:#7CBD1E; 
@@ -10,7 +14,13 @@
     /*contenedores*/
     --sombra:-4px 4px 5px var(--color-gris);
     --borde:1px solid var(--color-gris);
+    /* contenedor cuadrado*/
+    --borde2: 0px solid var(--color-gris);
 }
+/* ------------------------------ */
+
+
+/* css para componentes genericos*/
 html, body{
     padding: 0px;
     margin: 0px;
@@ -44,7 +54,10 @@ nav li a{
 nav li a:hover{
     color: var(--color-blanco);    
 }
+/* ------------------------------ */
 
+
+/* CSS para Index */
 .principal{
     padding-bottom: 160px;
     padding-top: 40px;
@@ -86,6 +99,11 @@ nav li a:hover{
 
 .responsive{
     width: 50%;
+    height: auto;
+}
+
+.responsive2{
+    width: 70%;
     height: auto;
 }
 .boton{
@@ -139,6 +157,10 @@ nav li a:hover{
     padding: 0 50px 0px 50px; 
     text-align: center;    
 }
+/* ------------------------------ */
+
+
+/* CSS del Footer*/
 footer{
 
     background:#3C9D9B;
@@ -148,5 +170,30 @@ footer{
 .nombre {
  margin-left: auto;
 }
+/* ------------------------------ */
 
 
+
+
+
+/* CSS para ventas */
+.modulo-pago{
+    box-shadow: var(--sombra); 
+    border: var(--borde);
+    padding: 10px;
+}
+
+.modulo-imagen{
+    text-align: center;
+}
+
+
+/* ------------------------------ */
+
+
+
+/*Para prueba de las cajas*/
+.color{
+    background-color: aqua;
+}
+/* ------------------------------ */
