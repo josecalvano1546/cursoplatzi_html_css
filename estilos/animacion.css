@@ -63,3 +63,49 @@
         -webkit-transform: translate3d(0,0,0);
     }
 }
+
+.fadeInRigth{
+    animation-duration: 2s;
+    -webkit-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInRigth;
+    -webkit-animation-name: fadeInRigth; 
+}
+
+@keyframes fadeInRigth{
+    from{
+        opacity: 0;
+        /*Genera el movieminto desde arriba hasta abajo*/
+        -webkit-transform: translate3d(20%,0,0);
+        transform: translate3d(20%,0,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+.fadeInLeft{
+    animation-duration: 2s;
+    -webkit-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft; 
+}
+
+@keyframes fadeInLeft{
+    from{
+        opacity: 0;
+        /*Genera el movieminto desde arriba hasta abajo*/
+        -webkit-transform: translate3d(-20%,0,0);
+        transform: translate3d(-20%,0,0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
