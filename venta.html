@@ -17,7 +17,7 @@
     <!-- Aca empieza el navbar --> 
     <nav class="barra fadeInDown">
        <div class="logo">
-           <img src="imagenes/ADOPCION.png" alt="imagen del logo" height="50px" width="150px">
+           <img src="imagenes/ADOPCION.png" alt="imagen del logo" class="responsive">
        </div>
        <div class="nav_opciones">
            <ul>
@@ -29,24 +29,12 @@
 
     </nav>
     <!-- Aca Termina el navbar --> 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
- 
-
 
     <!-- Inicia formulario de Ventas --> 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-4  fadeInUp">
+    <div class="container centrar">
+        <div class="row ">
+            <div class="col-4  fadeInUp ">
                 <div class="modulo-pago">
                     <div class="modulo-imagen">
                         <img src="imagenes/cat.png" alt="Imagen de gatito" class="responsive2">
@@ -58,18 +46,27 @@
             <div class="col-8 fadeInRigth">
                 <div class="modulo-pago ">
                    <form action="">
-                       <label for="nombre" id="posicion">NOMBRE</label>
                        <br>
-                       <input type="text" id="nombre" name="nombre"/>
+                       <label  for="nombre" id="posicion">NOMBRE</label>
                        <br>
-                       <label for="email" id="posicion">EMAIL </label>
+                       <input class="formulario" type="text" id="nombre" name="nombre"/>
                        <br>
-                       <input type="text" name="email" id="email">
+                       <label  for="email" id="posicion">EMAIL </label>
+                       <br>
+                       <input class="formulario"type="text" name="email" id="email">
                        <br>
                        <label for="telefono" id="posicion">TELEFONO</label>
                        <br>
-                       <input type="number" name="telefono" id="telefono">
-
+                       <input class="formulario" type="number" name="telefono" id="telefono">
+                       <br>
+                       <br>
+                       
+                       <div class="boton-centro">
+                            <input type="submit" class="boton" name="submit" value="Confirmar Pago">
+                       </div>
+                       
+                       <br>
+                       <br>
                    </form>
                 </div>
 
@@ -78,13 +75,10 @@
     </div>
 
     <!-- Finaliza formulario de Ventas --> 
-    <br>
-    <br>
-    <br>
-    <br>
+
 
     <!-- Aca inicia el pie de pagina --> 
-        <footer>
+        <footer class="centrar-footer">
             <p> Sigueme en las redes </p>
 
             <div class="nombre">

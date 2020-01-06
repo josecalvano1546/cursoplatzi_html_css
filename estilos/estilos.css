@@ -106,15 +106,24 @@ nav li a:hover{
     width: 70%;
     height: auto;
 }
+.responsive-prueba{
+    width: 80%;
+    height: auto;
+    
+}
+.logo{
+    padding-top: 10px;
+}
+
 .boton{
     background:var(--color-verdeAgua);
     width: 80%;
-    margin-left: 10%; 
     padding: 10px;
     border-radius: 22px;
     font-size: 17px;
     cursor: pointer;
 }
+
 .boton:hover{
     background-color: var(--color-verde); 
 }
@@ -186,23 +195,30 @@ footer{
 .modulo-imagen{
     text-align: center;
 }
-
-/*---------------------------------------
-#nombre, #email, #telefono{
-    padding: 8px;
-    margin: 2px 0px 2px 30px;
-    width: 80%;
+.modulo-pago .formulario{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid var(--color-negro);
+ 
+    /*---Esto hace que se tome de referencia el padding borde del elemento que lo contiene-----*/
 }
----------------------------------------*/
 
- .modulo-pago input{
-     margin-top: 8px;
-     margin-bottom: 10px;
-     width: 95%;
-     height: 35px;
-     border-radius: 2px;
-     border: 1px solid var(--color-negro);
- }
+.boton-centro{
+    text-align: center;
+}
+
+.centrar{
+    padding-top: 10%;
+}
+
+.centrar-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%
+}
 
 /* ------------------------------ */
 

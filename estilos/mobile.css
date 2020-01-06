@@ -19,6 +19,10 @@
         height: auto;
    }
    .caja_men .men{
-    margin: 40px 70px 70px 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
    }
+   .centrar-footer{
+    position: relative;
+}
 }

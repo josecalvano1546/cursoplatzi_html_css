@@ -24,4 +24,8 @@
     .ocultar{
         display: none;
     }
+    .centrar-footer{
+        position: relative;
+    }
+
 }
