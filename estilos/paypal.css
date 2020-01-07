@@ -1,0 +1,12 @@
+body{
+    background-color: var(--color-verdoso);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.img-redondo{
+    border-radius: 25px;
+    
+}
