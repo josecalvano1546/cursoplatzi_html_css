@@ -202,6 +202,7 @@ footer{
     /*---Esto hace que se tome de referencia el padding borde del elemento que lo contiene-----*/
 }
 
+/*-----------------footer----------------------*/
 .boton-centro{
     text-align: center;
 }
@@ -216,6 +217,10 @@ footer{
     width: 100%
 }
 
+.contacto a{
+    color: var(--color-negro);
+
+}
 /* ------------------------------ */
 
 
